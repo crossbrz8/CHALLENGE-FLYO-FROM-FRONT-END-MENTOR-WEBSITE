@@ -273,22 +273,6 @@ time, mark, audio, video {
   width: 370px;
   margin-bottom: 2rem;
 }
-/*
-.card-1,.card-2,.card-3 
-{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--Dark-blue-testimonials);
-  width: 400px;
-  height: 200px;
-  border-radius: 3px;
-  padding: 1rem;
-  box-shadow: 7px 10px 16px 0px rgb(0 0 0 / 10%);
-  font-family: 'Raleway', sans-serif;
-}
-*/
 
 .card-1,.card-2,.card-3 
 {
@@ -393,8 +377,6 @@ time, mark, audio, video {
 }
 
 .btn-email input{
-  /*width: 500px;
-  height: 30px;*/
   border-radius: 25px;
   padding: 0.5rem;
   border: none;
@@ -416,118 +398,14 @@ time, mark, audio, video {
   width: 30%;
 }
 
-/*.footer{
-  display: flex;
-  justify-content: space-around;
-  align-items: stretch;
-  padding: 15rem;
-  background-color: var(--Dark-blue-footer); 
-}
-/*
-.footer{
-  display:inline-flex;
-  grid-template-columns:repeat(11, 1fr);
-  grid-template-areas:  "....col1 col1 col1 col2 col2 col3 col3 col4 col4";
-  gap: 2rem;
-  align-items: flex-start;
-  justify-content: space-evenly;
-  background-color: var(--Dark-blue-footer);
-  padding: 20rem 0rem 15rem 0;
-}
-
-.container-footer-1
-{
-  grid-area: col1;
-  
-}
-
-.container-footer-2
-{
-  grid-area: col2;
-}
-
-.container-footer-3
-{
-  grid-area:col3;
-}
-
-.container-footer-4
-{
-  grid-area: col4 ;
-}
-
-.container-footer-1{
-  display: flex;
-  flex-direction: column;
-  color: white;
-  line-height: 1rem;
-  font-size: 1.125rem;
-  max-width: 25%;
-  align-self: flex-start;
-  position: relative;
-  bottom: 60px;  
-}
-
-.container-footer-1 > .icon-location
-{
-  position: relative;
-  top: 16px;
-  right: 20px;
-}
-
-.container-footer-1 p{
-  text-align: justify;
-}
-
-.container-footer-2
-{
-  display: flex;
-  flex-direction: column;
-  max-width:80%;
-}
-
-.container-footer-2 h3{
-  display: flex;
-  align-items: center;
-  color: white;
-  padding: 0.5rem;
-  gap:1rem;
-}
-
-.container-footer-3 li ,.container-footer-5 li{
-    margin: 0.5rem 0;
-}
-
-.container-footer-4{
-  display: flex;
-  padding: 0;
-  max-width: 50%;
-  gap: 1rem;
-}
-
-.container-footer-4 svg{
-  border-radius: 50%;	
-  padding: 0.4rem;
-}
-
-.footer a,li{
-  color: white;
-  text-decoration: none;
-  list-style: none;
-  margin: 0;  
-  padding: 0;
-}*/
-
 .footer{
     padding:15rem 5rem 5rem 5rem;
     background-color: var(--Dark-blue-footer); 
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    border: 1px solid red;
     color: white;
     gap: 3rem;
-
 }
 
 .align{
