@@ -9,8 +9,7 @@ Users should be able to:
 - See hover states for all interactive elements on the pag (Not yet finished)
 
 Screenshot
-![image](https://user-images.githubusercontent.com/59404958/173430201-4577d9a6-0d5d-4c5c-9de0-777200f1c780.png)
-
+![desktop-design](https://user-images.githubusercontent.com/59404958/173430873-55d83bea-9ec4-4ff6-8bdb-9e018212c161.jpg)
 
 My process
 
