@@ -14,13 +14,24 @@ inputElement.addEventListener("change",() => {
         pElement.innerText = "This is a valid e-mail";
         const emailContainer = document.querySelector(".email-container");
         emailContainer.appendChild(pElement); 
+        setTimeout(() => {
+            pElement.innerText = "";
+        }
+        , 3000);
     }
+            
     else {
         const pElement = document.createElement("p");
-        pElement.style.color = "red";
+        pElement.style.color = "green";
         pElement.innerText = "This is not a valid e-mail";
         const emailContainer = document.querySelector(".email-container");
         emailContainer.appendChild(pElement);
+        // make it so that innerText dissapear from the html after a certain amount of time
+        setTimeout(() => {
+            pElement.innerText = "";
+        }
+        , 3000);
+
     }
 }
 );
