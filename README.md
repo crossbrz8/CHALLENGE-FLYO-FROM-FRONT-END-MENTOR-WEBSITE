@@ -19,4 +19,4 @@ My process
 - Flexbox
 - CSS Grid
 - CSS Position
-- JavaScript(Not yet included)
+- JavaScript
