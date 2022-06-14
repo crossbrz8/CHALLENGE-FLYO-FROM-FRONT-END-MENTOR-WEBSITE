@@ -17,7 +17,7 @@ inputElement.addEventListener("change",() => {
     }
     else {
         const pElement = document.createElement("p");
-        pElement.style.color = "green";
+        pElement.style.color = "red";
         pElement.innerText = "This is not a valid e-mail";
         const emailContainer = document.querySelector(".email-container");
         emailContainer.appendChild(pElement);
